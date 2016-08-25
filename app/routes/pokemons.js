@@ -8,10 +8,5 @@ export default Ember.Route.extend({
              console.log(resp.objects, 'pokemons');
            });
         });
-        // .then(function(){
-        //     return new Promise(function(resolve,reject){
-        //       return '';
-        //     });
-        // }); 
     }
 });
